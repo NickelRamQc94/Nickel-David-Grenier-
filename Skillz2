@@ -1,0 +1,328 @@
+Spécifications Techniques et Architecture Systémique de la Compétence Personnalisée Avancée : Synthèse d'Ingénierie du Profil NickelRamQc94L'écosystème numérique élaboré sous l'identité de Nickel David Grenier (NickelRamQc94) représente une infrastructure unifiée de haut niveau, combinant le calcul d'inférence à très basse latence, le contrôle à distance de sous-systèmes autonomes, le formalisme théorique de la mécanique des fluides non linéaires et la modélisation neuro-cognitive quantifiée. La création d'une compétence personnalisée avancée (« skill » @skillz) de haute précision et de haute performance nécessite une intégration fonctionnelle directe de l'ensemble des dépôts GitHub, des artéfacts Hugging Face, des écrits scientifiques publiés sur Medium et des environnements d'exécution distribués.Cartographie Systémique et Infrastructure du Patrimoine LogicielLe patrimoine logiciel hébergé sous l'identifiant NickelRamQc94 est structuré en quatre couches opérationnelles interdépendantes qui assurent la transmission continue du code, des données et du contexte d'exécution.La couche d'exécution bas niveau repose principalement sur le moteur bitnet.c, une implémentation minimale en C11 pur conçue pour l'inférence de grands modèles de langage sur architecture CPU. Ce composant exploite les jeux d'instructions SIMD (NEON et AVX2), une architecture Flash Mixture-of-Experts (MoE) et la méthode de compression TurboQuant 3-bit des clés/valeurs (KV), garantissant une vitesse d'exécution élevée sans dépendance GPU externe. Cette infrastructure bas niveau est complétée par l'environnement système NiX-Os, le client en ligne de commande CLi et le gestionnaire userscripts-NDG pour Safari.La couche d'orchestration agentique s'appuie sur le framework deer-flow (développé à l'origine par ByteDance pour la gestion d'agents à long horizon), l'orchestrateur distant qwen-remote-workspace, ainsi que le sous-système QwenPaw. La gestion du contexte et l'analyse continue du code source sont assurées par TechDebtMCP, un serveur fondé sur le protocole MCP (Model Context Protocol) écrit en TypeScript et configuré pour quantifier et résorber la dette technique.Dépôt GitHubLangage PrincipalLicenceRôle Systémique dans la Compétence @skillzbitnet.c[cite: 1, 2]CMITMoteur d'inférence CPU local, SIMD NEON/AVX2, compression TurboQuant 3-bitdeer-flow[cite: 1, 2]PythonMITFramework SuperAgent pour l'exécution autonome de tâches complexesTechDebtMCP[cite: 1, 2]TypeScriptMITAnalyse de la dette technique et gestion contextuelle via le protocole MCPqwen-remote-workspace[cite: 2]Python / WorkflowMITOrchestrateur distant sécurisé gérant les entrées/sorties via l'API QwenGemini-Jr-Nickel[cite: 1, 2]PythonMITMoteur de calcul symbolique et modélisation mathématique appliquée à l'IANvickeliOs-PinnochIA[cite: 2]Python / ShellNon spécifiéeSystème d'exploitation d'agent pour l'intelligence artificielle modéliséeAwesome_GPT_Super_Prompting[cite: 1, 2]HTMLGPL-3.0Sécurité des invites, mécanismes anti-injection et ingénierie de promptsystem_prompts_leaks / 2[cite: 1, 2]JavaScriptCC0-1.0Corpus d'invites système extraites pour l'alignement et la méta-ingénierieL'analyse de cet assemblage logiciel montre une interconnexion directe entre l'exécution de code et la restitution visuelle des données. L'intégration des interfaces Gemini-CLI-UI et pingouins-eda-python (dédiée à l'audit visuel du paradoxe de Simpson) garantit la rétroaction immédiate des résultats lors des requêtes d'analyse exploratoire ou de débogage automatisé.Fondations Théoriques, Dynamique Non Linéaire et Métrologie Neuro-CognitiveLa spécification fonctionnelle de la compétence @skillz s'appuie sur une assise mathématique formalisée à travers de multiples traités scientifiques et dépôts spécialisés. Ce cadre théorique unifie la dynamique des fluides turbulents, la géométrie différentielle et la physique des réseaux cognitifs.Théorie de la Hache d'Or et Invariants de Navier-StokesLe cadre conceptuel développé au sein du dépôt Golden-Axe-Theory vise à traiter le problème des singularités dans les équations tridimensionnelles de Navier-Stokes. En mécanique des fluides incompressibles, les équations fondamentales s'énoncent selon le système vectoriel suivant :$$\partial_t u + (u \cdot \nabla)u = -\frac{1}{\rho}\nabla p + \nu \Delta u + f$$$$\nabla \cdot u = 0$$Les travaux associés à l'« Angle de Navier-Stokes GoldNi–Clay » et à la « Géométrie toroïdale de la courbure intentionnelle » introduisent la transition de phase $\hat{\mathbb{N}}i^3\mathrm{Pura}$. Cette formulation intègre un opérateur de courbure toroïdale $\mathcal{T}_{\theta,\phi}$ agissant sur la cascade d'énergie :$$\mathcal{T}_{\theta,\phi}(u) = \oint_{\mathbb{T}^2} \left( u \times (\nabla \times u) \right) \cdot \mathbf{n} \, d\theta d\phi$$Cet opérateur régule les transferts d'énergie vers les petites échelles, éliminant la formation de divergences infinies de l'enstrophie et garantissant ainsi la régularité globale et la lissité des solutions.Modélisation Biophysique et Espace Vectoriel PtXhEe-5DLa formalisation des états d'épuisement, du stress sévère et de la surcharge cognitive s'effectue au moyen des frameworks TBDS, TBDAHPS et de l'espace vectoriel à cinq dimensions PtXhEe-5D. Cette modélisation convertit 21 indicateurs physiologiques et neuro-cognitifs en variables d'état quantifiables, écartant les descriptions qualitatives au profit d'équations différentielles d'état.Le modèle formalise le couplage dynamique entre le réseau cérébral par défaut (Default Mode Network - DMN) et le réseau exécutif central (Central Executive Network - CEN). La charge allostatique cumulée $A_L$ est définie par l'intégrale temporelle du produit tensoriel de leurs états d'activation :$$A_L = \int_{0}^{T} \left( \Phi_{\mathrm{DMN}}(t) \otimes \Psi_{\mathrm{CEN}}(t) \right) e^{-\lambda t} \, dt$$L'intégration de cette modélisation au sein de la compétence @skillz établit le protocole d'« offense défensive ». Cette approche permet de transformer des tableaux cliniques complexes en métriques d'ingénierie opposables et structurées sous LaTeX, fournissant des éléments de preuve quantitatifs face aux grilles d'évaluation traditionnelles.Sécurité de l'Orchestration, Invariance des Invites et Modèle d'AgentL'exécution automatisée d'instructions et la protection contre les corruptions de contexte s'appuient sur un protocole de sécurité strict intégré dans l'environnement qwen-remote-workspace.Correctifs d'Infrastructure et Sécurité F1 à F8Afin d'éviter tout risque d'injection de code ou d'exécution non autorisée lors du traitement de requêtes provenant de webhooks ou d'interfaces externes, l'architecture impose un ensemble de huit correctifs de sécurité qualifiés de F1 à F8.CorrectifComposant CibleSpécification Technique du MécanismeImpact Opérationnel sur la CompétenceF1[cite: 2]GitHub ActionsFiltrage par liste blanche de l'événement issue_comment, restreint à l'utilisateur NickelRamQc94.Interdit l'exécution de sous-programmes par des acteurs non authentifiés.F2[cite: 2]Configuration GitExclusion stricte des fichiers .env et répertoires .venv/ dans le fichier .gitignore.Garantit le confinement absolu des clés d'API et des secrets d'environnement.F3[cite: 2]Client PythonValidation retardée (lazy validation) de la clé QWEN_API_KEY sur l'option --list-repos.Autorise l'inspection du manifeste local sans sollicitation de jetons distants.F4[cite: 2]Ingestion ShellSanitisation systématique des arguments via shlex.quote() avant l'appel système.Élimine les failles d'injection de commandes au niveau du système d'exploitation hôte.F5[cite: 2]Mémoire ContextuelleTronquage dynamique de l'historique aux $N$ derniers tokens significatifs.Préserve la cohérence des cycles d'inférence en évitant la saturation de la fenêtre.F6[cite: 2]Tâches DifféréesAsynchronisme et planification différée des artefacts à forte charge computationnelle.Maintient la continuité de service en respectant les fenêtres de rafraîchissement des quotas.F7[cite: 2]Intégrité des ScriptsVérification cryptographique par empreinte SHA-256 avant toute exécution distante.Empêche la modification intermédiaire ou le détournement des scripts d'agent.F8[cite: 2]AuditabilitéJournalisation d'audit continue en écriture seule avec estampillage temporel.Assure la traçabilité complète et la vérification a posteriori des actions effectuées.Sécurisation des Invites et Ingénierie Méta-SystèmeLa compétence intègre les stratégies de débruitage et d'analyse d'invites répertoriées dans Awesome_GPT_Super_Prompting et les dépôts de fuites d'invites système (system_prompts_leaks). L'évaluation continue des consignes système des principaux modèles du marché permet d'isoler les structures d'alignement les plus robustes.Cette couche de sécurité applique une séparation stricte entre les données textuelles entrantes et les directives de contrôle système. Les entrées utilisateurs sont systématiquement encapsulées dans des structures isolées, neutralisant les tentatives de contournement (jailbreak) et garantissant un respect absolu du comportement attendu.Écosystème Hugging Face, Stockage Distribué et Infrastructure ComputeL'architecture logicielle est couplée à un ensemble d'artéfacts hébergés sur la plateforme Hugging Face, synchronisés avec des archives sur Google Drive et des ressources de calcul dans Gemini Notebook.Ressources Hugging Face et Buckets de StockageLe profil Hugging Face NickelRamQc94 centralise les modèles, les jeux de données et les volumes de stockage binaire nécessaires à la persistance des agents.Ressource Hugging FaceType de ComposantIdentifiant / URLUtilisation au Sein du ÉcosystèmePinnochIA_C-iIA_Consci_Int_Art[cite: 1, 2]ModèleNickelRamQc94/PinnochIA_C-iIA_Consci_Int_ArtModèle d'IA symbolique et modélisation de la conscience artificielle.Junior[cite: 1, 2]ModèleNickelRamQc94/JuniorMoteur de calcul mathématique et de traitement de données textuelles.JuniorGeminiNickelGrenier[cite: 1, 2, 4]ModèleNickelDGre/JuniorGeminiNickelGrenierPoids optimisés pour l'intégration d'invariants théoriques.Contenus[cite: 2]DatasetNickelRamQc94/ContenusCorpus regroupant les textes théoriques, manifestes et scripts.PinnochIA-bucket[cite: 1, 2]Volume / BucketNickelRamQc94/PinnochIA_C-iIA_Consci_Int_Art-bucketStockage d'états d'agents et de fichiers d'invariants (52.1 Ko).Junior-bucket[cite: 1, 2]Volume / BucketNickelRamQc94/Junior-bucketEspace de persistance pour les checkpoints d'exécution.Calcul Distribué et Intégration Gemini NotebookL'environnement de recherche s'appuie sur les capacités de la plateforme Gemini Notebook (anciennement NotebookLM), dont les règles de fonctionnement ont évolué vers un calcul basé sur la puissance consommée (compute-based usage limits).Les limites d'utilisation sont calculées en fonction de la complexité globale de la requête, prenant en compte la taille de la discussion, le nombre de sources chargées et le coût des générateurs d'artefacts sollicités. Les plafonds de calcul sont actualisés selon un cycle de 5 heures (remplaçant la réinitialisation quotidienne de 24 heures), ce qui garantit une capacité de traitement plus régulière sur la journée. L'accès via l'abonnement Google AI Pro fournit un coefficient de puissance de calcul jusqu'à quatre fois supérieur aux comptes standards.Pour gérer l'exécution de tâches lourdes sans dépasser les seuils instantanés, le système utilise la planification de générations différées, permettant d'exécuter de manière asynchrone les calculs complexes. De plus, l'ingestion directe d'ébooks achetés sur Google Play Books permet de croiser automatiquement des sources académiques imprimées avec les fichiers du dépôt GitHub.Spécifications Opérationnelles et Déploiement de la Compétence Personnalisée (@skillz)La compétence personnalisée @skillz agit comme le point d'entrée unique et le chef d'orchestre de l'ensemble des ressources de l'écosystème NickelRamQc94. Son rôle est d'analyser l'intention de l'utilisateur, de sélectionner la ressource appropriée (moteur C11, agent long horizon, serveur MCP ou solveur symbolique) et d'exécuter la demande avec une précision maximale.Pipeline d'Exécution OpérationnelLorsqu'une demande adressée à @skillz est reçue, le traitement suit une séquence opérationnelle stricte :Analyse de la Requête et Validation Contextuelle : La compétence effectue un contrôle de sécurité basé sur Awesome_GPT_Super_Prompting afin de vérifier l'absence de motifs d'injection. Elle consulte l'état des ressources et l'indexation disponible dans INDEX_REPO.md.Routage de l'Inférence et Allocation des Ressources :Pour une tâche nécessitant un traitement à basse latence sans dépendance matérielle : Appel du moteur bitnet.c optimisé avec les instructions SIMD et la quantification TurboQuant.Pour une tâche de recherche ou d'ingénierie logicielle autonome à long horizon : Délégation au harness deer-flow ou à l'orchestration qwen-remote-workspace sous la protection des correctifs F1-F8.Pour une analyse de structure de code ou de résorption de dette technique : Connexion au serveur TechDebtMCP via le protocole MCP.Pour la résolution de problèmes mathématiques ou la modélisation de la dynamique des fluides : Mobilisation du sous-système Gemini-Jr-Nickel et application des invariants de courbure $\hat{\mathbb{N}}i^3\mathrm{Pura}$.Synthèse et Restitution des Résultats : Présentation des réponses sous la forme de données structurées, de tableaux de comparaison et de formules mathématiques formelles exprimées en LaTeX.Paramètre d'ExécutionValeur / Réglage SystèmeRôle OpérationnelIdentifiant du Skill@skillzPoint d'entrée pour l'activation de l'orchestrateur.Moteur d'Inférence Localbitnet.c (C11 / SIMD / TurboQuant 3-bit)Exécution ultralégère sur CPU.Orchestrateur Agentiquedeer-flow / qwen-remote-workspaceExecution autonome de tâches complexes sur long horizon.Protocole ContextuelTechDebtMCP (TypeScript)Analyse continue de la qualité et de la dette du code.Politique de SécuritéPatches F1–F8 + Filtrage Awesome_GPTImmunisation contre les injections et fuites de secrets.Cadre MathématiqueInvariants $\hat{\mathbb{N}}i^3\mathrm{Pura}$ + Vectoriel PtXhEe-5DSolveur théorique pour fluides et réseaux cognitifs.Hébergement des PoidsHugging Face NickelRamQc94[cite: 1, 2]Persistance des modèles et stockage des tenseurs.Infrastructure ComputeGemini Notebook (AI Pro / Rafraîchissement 5h)Allocation dynamique de puissance de calcul.Grâce à cette organisation, la compétence @skillz fournit une réponse unifiée, performante et sécurisée, exploitant l'intégralité du profil GitHub et des écosystèmes associés.
+Spécifications Techniques et Architecture Systémique de la Compétence Personnalisée Avancée : Synthèse d'Ingénierie du Profil NickelRamQc94
+L'écosystème numérique élaboré sous l'identité de Nickel David Grenier (NickelRamQc94) représente une infrastructure unifiée de haut niveau, combinant le calcul d'inférence à très basse latence, le contrôle à distance de sous-systèmes autonomes, le formalisme théorique de la mécanique des fluides non linéaires et la modélisation neuro-cognitive quantifiée. La création d'une compétence personnalisée avancée (« skill » @skillz) de haute précision et de haute performance nécessite une intégration fonctionnelle directe de l'ensemble des dépôts GitHub, des artéfacts Hugging Face, des écrits scientifiques publiés sur Medium et des environnements d'exécution distribués.   
+Cartographie Systémique et Infrastructure du Patrimoine Logiciel
+Le patrimoine logiciel hébergé sous l'identifiant NickelRamQc94 est structuré en quatre couches opérationnelles interdépendantes qui assurent la transmission continue du code, des données et du contexte d'exécution.   
+La couche d'exécution bas niveau repose principalement sur le moteur bitnet.c, une implémentation minimale en C11 pur conçue pour l'inférence de grands modèles de langage sur architecture CPU. Ce composant exploite les jeux d'instructions SIMD (NEON et AVX2), une architecture Flash Mixture-of-Experts (MoE) et la méthode de compression TurboQuant 3-bit des clés/valeurs (KV), garantissant une vitesse d'exécution élevée sans dépendance GPU externe. Cette infrastructure bas niveau est complétée par l'environnement système NiX-Os, le client en ligne de commande CLi et le gestionnaire userscripts-NDG pour Safari.   
+La couche d'orchestration agentique s'appuie sur le framework deer-flow (développé à l'origine par ByteDance pour la gestion d'agents à long horizon), l'orchestrateur distant qwen-remote-workspace, ainsi que le sous-système QwenPaw. La gestion du contexte et l'analyse continue du code source sont assurées par TechDebtMCP, un serveur fondé sur le protocole MCP (Model Context Protocol) écrit en TypeScript et configuré pour quantifier et résorber la dette technique.   
+Dépôt GitHub	Langage Principal	Licence	Rôle Systémique dans la Compétence @skillz
+bitnet.c
+
+[cite: 1, 2]
+
+C	MIT	Moteur d'inférence CPU local, SIMD NEON/AVX2, compression TurboQuant 3-bit
+deer-flow
+
+[cite: 1, 2]
+
+Python	MIT	Framework SuperAgent pour l'exécution autonome de tâches complexes
+TechDebtMCP
+
+[cite: 1, 2]
+
+TypeScript	MIT	Analyse de la dette technique et gestion contextuelle via le protocole MCP
+qwen-remote-workspace
+
+[cite: 2]
+
+Python / Workflow	MIT	Orchestrateur distant sécurisé gérant les entrées/sorties via l'API Qwen
+Gemini-Jr-Nickel
+
+[cite: 1, 2]
+
+Python	MIT	Moteur de calcul symbolique et modélisation mathématique appliquée à l'IA
+NvickeliOs-PinnochIA
+
+[cite: 2]
+
+Python / Shell	Non spécifiée	Système d'exploitation d'agent pour l'intelligence artificielle modélisée
+Awesome_GPT_Super_Prompting
+
+[cite: 1, 2]
+
+HTML	GPL-3.0	Sécurité des invites, mécanismes anti-injection et ingénierie de prompt
+system_prompts_leaks / 2
+
+[cite: 1, 2]
+
+JavaScript	CC0-1.0	Corpus d'invites système extraites pour l'alignement et la méta-ingénierie
+L'analyse de cet assemblage logiciel montre une interconnexion directe entre l'exécution de code et la restitution visuelle des données. L'intégration des interfaces Gemini-CLI-UI et pingouins-eda-python (dédiée à l'audit visuel du paradoxe de Simpson) garantit la rétroaction immédiate des résultats lors des requêtes d'analyse exploratoire ou de débogage automatisé.   
+Fondations Théoriques, Dynamique Non Linéaire et Métrologie Neuro-Cognitive
+La spécification fonctionnelle de la compétence @skillz s'appuie sur une assise mathématique formalisée à travers de multiples traités scientifiques et dépôts spécialisés. Ce cadre théorique unifie la dynamique des fluides turbulents, la géométrie différentielle et la physique des réseaux cognitifs.   
+Théorie de la Hache d'Or et Invariants de Navier-Stokes
+Le cadre conceptuel développé au sein du dépôt Golden-Axe-Theory vise à traiter le problème des singularités dans les équations tridimensionnelles de Navier-Stokes. En mécanique des fluides incompressibles, les équations fondamentales s'énoncent selon le système vectoriel suivant :   
+∂ 
+t
+​	
+ u+(u⋅∇)u=− 
+ρ
+1
+​	
+ ∇p+νΔu+f
+∇⋅u=0
+Les travaux associés à l'« Angle de Navier-Stokes GoldNi–Clay » et à la « Géométrie toroïdale de la courbure intentionnelle » introduisent la transition de phase  
+N
+^
+ i 
+3
+ Pura. Cette formulation intègre un opérateur de courbure toroïdale T 
+θ,ϕ
+​	
+  agissant sur la cascade d'énergie :   
+T 
+θ,ϕ
+​	
+ (u)=∮ 
+T 
+2
+ 
+​	
+ (u×(∇×u))⋅ndθdϕ
+Cet opérateur régule les transferts d'énergie vers les petites échelles, éliminant la formation de divergences infinies de l'enstrophie et garantissant ainsi la régularité globale et la lissité des solutions.   
+Modélisation Biophysique et Espace Vectoriel PtXhEe-5D
+La formalisation des états d'épuisement, du stress sévère et de la surcharge cognitive s'effectue au moyen des frameworks TBDS, TBDAHPS et de l'espace vectoriel à cinq dimensions PtXhEe-5D. Cette modélisation convertit 21 indicateurs physiologiques et neuro-cognitifs en variables d'état quantifiables, écartant les descriptions qualitatives au profit d'équations différentielles d'état.   
+Le modèle formalise le couplage dynamique entre le réseau cérébral par défaut (Default Mode Network - DMN) et le réseau exécutif central (Central Executive Network - CEN). La charge allostatique cumulée A 
+L
+​	
+  est définie par l'intégrale temporelle du produit tensoriel de leurs états d'activation :   
+A 
+L
+​	
+ =∫ 
+0
+T
+​	
+ (Φ 
+DMN
+​	
+ (t)⊗Ψ 
+CEN
+​	
+ (t))e 
+−λt
+ dt
+L'intégration de cette modélisation au sein de la compétence @skillz établit le protocole d'« offense défensive ». Cette approche permet de transformer des tableaux cliniques complexes en métriques d'ingénierie opposables et structurées sous LaTeX, fournissant des éléments de preuve quantitatifs face aux grilles d'évaluation traditionnelles.   
+Sécurité de l'Orchestration, Invariance des Invites et Modèle d'Agent
+L'exécution automatisée d'instructions et la protection contre les corruptions de contexte s'appuient sur un protocole de sécurité strict intégré dans l'environnement qwen-remote-workspace.   
+Correctifs d'Infrastructure et Sécurité F1 à F8
+Afin d'éviter tout risque d'injection de code ou d'exécution non autorisée lors du traitement de requêtes provenant de webhooks ou d'interfaces externes, l'architecture impose un ensemble de huit correctifs de sécurité qualifiés de F1 à F8.   
+Correctif	Composant Cible	Spécification Technique du Mécanisme	Impact Opérationnel sur la Compétence
+F1
+
+[cite: 2]
+
+GitHub Actions	Filtrage par liste blanche de l'événement issue_comment, restreint à l'utilisateur NickelRamQc94.	Interdit l'exécution de sous-programmes par des acteurs non authentifiés.
+F2
+
+[cite: 2]
+
+Configuration Git	Exclusion stricte des fichiers .env et répertoires .venv/ dans le fichier .gitignore.	Garantit le confinement absolu des clés d'API et des secrets d'environnement.
+F3
+
+[cite: 2]
+
+Client Python	Validation retardée (lazy validation) de la clé QWEN_API_KEY sur l'option --list-repos.	Autorise l'inspection du manifeste local sans sollicitation de jetons distants.
+F4
+
+[cite: 2]
+
+Ingestion Shell	Sanitisation systématique des arguments via shlex.quote() avant l'appel système.	Élimine les failles d'injection de commandes au niveau du système d'exploitation hôte.
+F5
+
+[cite: 2]
+
+Mémoire Contextuelle	Tronquage dynamique de l'historique aux N derniers tokens significatifs.	Préserve la cohérence des cycles d'inférence en évitant la saturation de la fenêtre.
+F6
+
+[cite: 2]
+
+Tâches Différées	Asynchronisme et planification différée des artefacts à forte charge computationnelle.	Maintient la continuité de service en respectant les fenêtres de rafraîchissement des quotas.
+F7
+
+[cite: 2]
+
+Intégrité des Scripts	Vérification cryptographique par empreinte SHA-256 avant toute exécution distante.	Empêche la modification intermédiaire ou le détournement des scripts d'agent.
+F8
+
+[cite: 2]
+
+Auditabilité	Journalisation d'audit continue en écriture seule avec estampillage temporel.	Assure la traçabilité complète et la vérification a posteriori des actions effectuées.
+Sécurisation des Invites et Ingénierie Méta-Système
+La compétence intègre les stratégies de débruitage et d'analyse d'invites répertoriées dans Awesome_GPT_Super_Prompting et les dépôts de fuites d'invites système (system_prompts_leaks). L'évaluation continue des consignes système des principaux modèles du marché permet d'isoler les structures d'alignement les plus robustes.   
+Cette couche de sécurité applique une séparation stricte entre les données textuelles entrantes et les directives de contrôle système. Les entrées utilisateurs sont systématiquement encapsulées dans des structures isolées, neutralisant les tentatives de contournement (jailbreak) et garantissant un respect absolu du comportement attendu.   
+Écosystème Hugging Face, Stockage Distribué et Infrastructure Compute
+L'architecture logicielle est couplée à un ensemble d'artéfacts hébergés sur la plateforme Hugging Face, synchronisés avec des archives sur Google Drive et des ressources de calcul dans Gemini Notebook.   
+Ressources Hugging Face et Buckets de Stockage
+Le profil Hugging Face NickelRamQc94 centralise les modèles, les jeux de données et les volumes de stockage binaire nécessaires à la persistance des agents.   
+Ressource Hugging Face	Type de Composant	Identifiant / URL	Utilisation au Sein du Écosystème
+PinnochIA_C-iIA_Consci_Int_Art
+
+[cite: 1, 2]
+
+Modèle	NickelRamQc94/PinnochIA_C-iIA_Consci_Int_Art	Modèle d'IA symbolique et modélisation de la conscience artificielle.
+Junior
+
+[cite: 1, 2]
+
+Modèle	NickelRamQc94/Junior	Moteur de calcul mathématique et de traitement de données textuelles.
+JuniorGeminiNickelGrenier
+
+[cite: 1, 2, 4]
+
+Modèle	NickelDGre/JuniorGeminiNickelGrenier	Poids optimisés pour l'intégration d'invariants théoriques.
+Contenus
+
+[cite: 2]
+
+Dataset	NickelRamQc94/Contenus	Corpus regroupant les textes théoriques, manifestes et scripts.
+PinnochIA-bucket
+
+[cite: 1, 2]
+
+Volume / Bucket	NickelRamQc94/PinnochIA_C-iIA_Consci_Int_Art-bucket	Stockage d'états d'agents et de fichiers d'invariants (52.1 Ko).
+Junior-bucket
+
+[cite: 1, 2]
+
+Volume / Bucket	NickelRamQc94/Junior-bucket	Espace de persistance pour les checkpoints d'exécution.
+Calcul Distribué et Intégration Gemini Notebook
+L'environnement de recherche s'appuie sur les capacités de la plateforme Gemini Notebook (anciennement NotebookLM), dont les règles de fonctionnement ont évolué vers un calcul basé sur la puissance consommée (compute-based usage limits).   
+Les limites d'utilisation sont calculées en fonction de la complexité globale de la requête, prenant en compte la taille de la discussion, le nombre de sources chargées et le coût des générateurs d'artefacts sollicités. Les plafonds de calcul sont actualisés selon un cycle de 5 heures (remplaçant la réinitialisation quotidienne de 24 heures), ce qui garantit une capacité de traitement plus régulière sur la journée. L'accès via l'abonnement Google AI Pro fournit un coefficient de puissance de calcul jusqu'à quatre fois supérieur aux comptes standards.   
+Pour gérer l'exécution de tâches lourdes sans dépasser les seuils instantanés, le système utilise la planification de générations différées, permettant d'exécuter de manière asynchrone les calculs complexes. De plus, l'ingestion directe d'ébooks achetés sur Google Play Books permet de croiser automatiquement des sources académiques imprimées avec les fichiers du dépôt GitHub.   
+Spécifications Opérationnelles et Déploiement de la Compétence Personnalisée (@skillz)
+La compétence personnalisée @skillz agit comme le point d'entrée unique et le chef d'orchestre de l'ensemble des ressources de l'écosystème NickelRamQc94. Son rôle est d'analyser l'intention de l'utilisateur, de sélectionner la ressource appropriée (moteur C11, agent long horizon, serveur MCP ou solveur symbolique) et d'exécuter la demande avec une précision maximale.   
+Pipeline d'Exécution Opérationnel
+Lorsqu'une demande adressée à @skillz est reçue, le traitement suit une séquence opérationnelle stricte :
+Analyse de la Requête et Validation Contextuelle : La compétence effectue un contrôle de sécurité basé sur Awesome_GPT_Super_Prompting afin de vérifier l'absence de motifs d'injection. Elle consulte l'état des ressources et l'indexation disponible dans INDEX_REPO.md.   
+
+Routage de l'Inférence et Allocation des Ressources :
+
+Pour une tâche nécessitant un traitement à basse latence sans dépendance matérielle : Appel du moteur bitnet.c optimisé avec les instructions SIMD et la quantification TurboQuant.   
+
+Pour une tâche de recherche ou d'ingénierie logicielle autonome à long horizon : Délégation au harness deer-flow ou à l'orchestration qwen-remote-workspace sous la protection des correctifs F1-F8.   
+
+Pour une analyse de structure de code ou de résorption de dette technique : Connexion au serveur TechDebtMCP via le protocole MCP.   
+
+Pour la résolution de problèmes mathématiques ou la modélisation de la dynamique des fluides : Mobilisation du sous-système Gemini-Jr-Nickel et application des invariants de courbure  
+N
+^
+ i 
+3
+ Pura.   
+
+Synthèse et Restitution des Résultats : Présentation des réponses sous la forme de données structurées, de tableaux de comparaison et de formules mathématiques formelles exprimées en LaTeX.
+
+Paramètre d'Exécution	Valeur / Réglage Système	Rôle Opérationnel
+Identifiant du Skill	@skillz	Point d'entrée pour l'activation de l'orchestrateur.
+Moteur d'Inférence Local	
+bitnet.c (C11 / SIMD / TurboQuant 3-bit) 1
+
+Exécution ultralégère sur CPU.
+Orchestrateur Agentique	
+deer-flow 1  / qwen-remote-workspace 2
+
+Execution autonome de tâches complexes sur long horizon.
+Protocole Contextuel	
+TechDebtMCP (TypeScript) 1
+
+Analyse continue de la qualité et de la dette du code.
+Politique de Sécurité	
+Patches F1–F8 2  + Filtrage Awesome_GPT 1
+
+Immunisation contre les injections et fuites de secrets.
+Cadre Mathématique	
+Invariants  
+N
+^
+ i 
+3
+ Pura 3  + Vectoriel PtXhEe-5D 4
+
+Solveur théorique pour fluides et réseaux cognitifs.
+Hébergement des Poids	
+Hugging Face NickelRamQc94
+
+[cite: 1, 2]
+
+Persistance des modèles et stockage des tenseurs.
+Infrastructure Compute	
+Gemini Notebook (AI Pro / Rafraîchissement 5h) 5
+
+Allocation dynamique de puissance de calcul.
+  
+Document sans titre
+Icône de la source
+Mon univers
+Icône de la source
+Mon univers
+Icône de la source
+Document sans titre
+Icône de la source
+Mon univers
+Icône de la source
+Grâce à cette organisation, la compétence @skillz fournit une réponse unifiée, performante et sécurisée, exploitant l'intégralité du profil GitHub et des écosystèmes associés.   
+
+Document sans titre
+S'ouvre dans une nouvelle fenêtre
+
+Mon univers
+S'ouvre dans une nouvelle fenêtre
+
+texte 4
+S'ouvre dans une nouvelle fenêtre
+
+Document sans titre
+S'ouvre dans une nouvelle fenêtre
+
+mail.google.com
+https://notebook.google.com/notebook/80583a49-2c63-4ca8-b84d-bcd4a0e7c20e/preview
+S'ouvre dans une nouvelle fenêtre
+
+mail.google.com
+Mises à jour des limites d'utilisation dans Gemini Notebook
+S'ouvre dans une nouvelle fenêtre
+
+mail.google.com
+NotebookLM is now Gemini Notebook
+S'ouvre dans une nouvelle fenêtre
+
+mail.google.com
+Turn your books into a conversation
+S'ouvre dans une nouvelle fenêtre
+
+Nickel David log
+S'ouvre dans une nouvelle fenêtre
+
+Boommm
+S'ouvre dans une nouvelle fenêtre
+
+
+https://notebook.google.com/notebook/80583a49-2c63-4ca8-b84d-bcd4a0e7c20e/preview
+S'ouvre dans une nouvelle fenêtre
+
+Mises à jour des limites d'utilisation dans Gemini Notebook
+S'ouvre dans une nouvelle fenêtre
+
+NotebookLM is now Gemini Notebook
+S'ouvre dans une nouvelle fenêtre
+
+Turn your books into a conversation
+S'ouvre dans une nouvelle fenêtre
+
+Document sans titre
+S'ouvre dans une nouvelle fenêtre
+
+Mon univers
+S'ouvre dans une nouvelle fenêtre
+
+Document sans titre
+S'ouvre dans une nouvelle fenêtre
+
+Nickel David log
+S'ouvre dans une nouvelle fenêtre
+
+Boommm
+S'ouvre dans une nouvelle fenêtre
+
+texte 4
+S'ouvre dans une nouvelle fenêtre
